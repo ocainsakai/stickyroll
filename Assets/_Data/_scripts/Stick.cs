@@ -9,7 +9,7 @@ public class Stick : MonoBehaviour
     public float maxPosition;
     public void UpdateHeight(float height)
     {
-        UpdateRotation();
+        //UpdateRotation();
         float dif = (height - transform.localScale.y);
         transform.localScale =  new Vector3 (transform.localScale.x,height,transform.localScale.z);
     }
@@ -27,10 +27,10 @@ public class Stick : MonoBehaviour
         
     }
   
-    void UpdateRotation()
-    {
-        transform.up = transform.parent.up;
-    }
+    //void UpdateRotation()
+    //{
+    //    transform.up = transform.parent.up;
+    //}
     // Update is called once per frame
     void Update()
     {

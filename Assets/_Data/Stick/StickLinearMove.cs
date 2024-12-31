@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class StickLinearMove : MonoBehaviour
+public class StickLinearMove : StickAbstract
 {
     public void LinearMove(float y)
     {

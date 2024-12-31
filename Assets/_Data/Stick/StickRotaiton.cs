@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class StickRotaiton : MonoBehaviour
+public class StickRotaiton : StickAbstract
 {
     public void Rotation(float angle)
     {
